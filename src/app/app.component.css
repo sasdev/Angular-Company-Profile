@@ -1,0 +1,29 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+  
+  .grey {
+    background-color: #f4f4f4;
+  }
+  
+  .blue {
+    background-color: deepskyblue;
+  }
+  
+  .orange {
+    background-color: darkorange;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .purple {
+    background-color: mediumpurple;
+  }
+  
+  .yellow {
+    background-color: lightyellow;
+  }
+  
+  .green {
+    background-color: mediumspringgreen;
+  }
