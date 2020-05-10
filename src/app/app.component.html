@@ -6,13 +6,12 @@
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
 
-
       <a mat-list-item routerLinkActive="mat-warn" color="accent" routerLink="">Home</a>
       <a mat-list-item routerLinkActive="mat-warn" color="accent" routerLink="Profile-list">Profile list</a>
 
-      <ng-container>
+      <!-- <ng-container>
              {{links2}}
-      </ng-container>
+      </ng-container> -->
 
     </mat-nav-list>
   </mat-sidenav>
@@ -29,7 +28,11 @@
       <span>my-app</span>
     </mat-toolbar>
     <!-- Add Content Here -->
-    <router-outlet></router-outlet>
+
+    <div class="router-content">
+      <router-outlet></router-outlet>
+    </div>
+    
   </mat-sidenav-content>
 </mat-sidenav-container>
 

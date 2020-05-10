@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+//Pages
+import { ProfileListComponent } from './pages/profile/profile-list.component'
 
 //Angular Material Components
 import {MatCheckboxModule} from '@angular/material/checkbox';
@@ -35,15 +37,22 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatTableModule} from '@angular/material/table';
+// import {MatTableDataSource} from '@angular/material/table';
+// import {DataSource} from '@angular/cdk/table';
 import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
 
+
 import { LayoutModule } from '@angular/cdk/layout';
+import { from } from 'rxjs';
+import { HomeComponent } from './pages/home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    ProfileListComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -80,12 +89,12 @@ import { LayoutModule } from '@angular/cdk/layout';
     MatTooltipModule,
     MatSnackBarModule,
     MatTableModule,
+    // MatTableDataSource,
     MatSortModule,
     MatPaginatorModule,
     LayoutModule
-
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
