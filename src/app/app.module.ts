@@ -41,6 +41,7 @@ import {MatTableModule} from '@angular/material/table';
 // import {DataSource} from '@angular/cdk/table';
 import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import { FlexLayoutModule } from '@angular/flex-layout'
 
 
 import { LayoutModule } from '@angular/cdk/layout';
@@ -92,7 +93,9 @@ import { HomeComponent } from './pages/home/home.component';
     // MatTableDataSource,
     MatSortModule,
     MatPaginatorModule,
-    LayoutModule
+    LayoutModule,
+    FlexLayoutModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent],

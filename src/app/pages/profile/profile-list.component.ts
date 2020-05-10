@@ -11,7 +11,20 @@ import { DataSource } from '@angular/cdk/table';
 })
 export class ProfileListComponent implements OnInit {
 
-  public testData = [
+  public TestData = [
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
+  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
   {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'}
   ]
 

@@ -4,11 +4,16 @@
 }
 
 .example-card {
-    max-width: 400px;
-    float: left;
+    // max-width: 400px;
+    // float: left;
+    margin-bottom: 20px;
   }
   
   .example-header-image {
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: cover;
+  }
+
+  .box{
+    background-color: lightblue;
   }
