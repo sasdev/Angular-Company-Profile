@@ -6,8 +6,10 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //Pages
-import { CompaniesComponent } from './pages/companies/companies.component'
 import { HomeComponent } from './pages/home/home.component';
+import { CompaniesComponent } from './pages/companies/companies.component'
+import { CompanyDetailComponent } from './pages/company-detail/company-detail.component'
+
 
 //Angular Material Components
 import {MatCheckboxModule} from '@angular/material/checkbox';
@@ -54,6 +56,7 @@ import { from } from 'rxjs';
   declarations: [
     AppComponent,
     CompaniesComponent,
+    CompanyDetailComponent,
     HomeComponent
   ],
   imports: [
