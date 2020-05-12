@@ -6,8 +6,8 @@ import { DataSource } from '@angular/cdk/table';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './profile-list.component.html',
-  styleUrls: ['./profile-list.component.scss']
+  templateUrl: './companies.component.html',
+  styleUrls: ['./companies.component.scss']
 })
 export class ProfileListComponent implements OnInit {
 
