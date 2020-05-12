@@ -9,7 +9,7 @@ import { DataSource } from '@angular/cdk/table';
   templateUrl: './companies.component.html',
   styleUrls: ['./companies.component.scss']
 })
-export class ProfileListComponent implements OnInit {
+export class CompaniesComponent implements OnInit {
 
   public TestData = [
   {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
