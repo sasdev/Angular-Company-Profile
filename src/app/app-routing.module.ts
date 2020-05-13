@@ -1,8 +1,8 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
+import {HomeComponent} from './pages/home/home.component'
 import {CompanyListComponent} from './pages/companies/company-list/company-list.component'
 import {CompanyDetailComponent} from './pages/companies/company-detail/company-detail.component'
-import {HomeComponent} from './pages/home/home.component'
 
 
 
