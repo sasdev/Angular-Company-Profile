@@ -8,7 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //Pages
 import { HomeComponent } from './pages/home/home.component';
 import { CompanyListComponent } from './pages/companies/company-list/company-list.component'
-import { CompanyDetailComponent } from './pages/company-detail/company-detail.component'
+import { CompanyDetailComponent } from './pages/companies/company-detail/company-detail.component'
 
 
 //Angular Material Components
