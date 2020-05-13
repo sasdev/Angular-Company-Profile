@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //Pages
 import { HomeComponent } from './pages/home/home.component';
-import { CompaniesComponent } from './pages/companies/companies.component'
+import { CompanyListComponent } from './pages/companies/company-list/company-list.component'
 import { CompanyDetailComponent } from './pages/company-detail/company-detail.component'
 
 
@@ -55,7 +55,7 @@ import { from } from 'rxjs';
 @NgModule({
   declarations: [
     AppComponent,
-    CompaniesComponent,
+    CompanyListComponent,
     CompanyDetailComponent,
     HomeComponent
   ],

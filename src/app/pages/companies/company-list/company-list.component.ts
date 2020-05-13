@@ -6,10 +6,10 @@ import { DataSource } from '@angular/cdk/table';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './companies.component.html',
-  styleUrls: ['./companies.component.scss']
+  templateUrl: './company-list.component.html',
+  styleUrls: ['./company-list.component.scss']
 })
-export class CompaniesComponent implements OnInit {
+export class CompanyListComponent implements OnInit {
 
   public TestData = [
   {id:1,name: 'Microsoft'},
