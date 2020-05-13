@@ -12,25 +12,10 @@ import { DataSource } from '@angular/cdk/table';
 export class CompaniesComponent implements OnInit {
 
   public TestData = [
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'},
-  {position:1,name: 'Hydrogen', weight: 1.023, symbol: 'H'}
+  {id:1,name: 'Microsoft'},
+  {id:2,name: 'Google'},
+  {id:3,name: 'Amazon'},
   ]
-
-  columnsToDisplay = ['position', 'name', 'weight', 'symbol'];
-  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
-  
 
   constructor() { }
   

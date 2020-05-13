@@ -8,8 +8,8 @@ import {HomeComponent} from './pages/home/home.component'
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'Companies', component: CompaniesComponent },
-  { path: 'company', component: CompanyDetailComponent}
+  { path: 'companies', component: CompaniesComponent },
+  { path: 'company/:id', component: CompanyDetailComponent}
 ];
 
 @NgModule({

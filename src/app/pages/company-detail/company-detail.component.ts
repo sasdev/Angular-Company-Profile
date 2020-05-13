@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
 @Component({
   selector: 'company-detail',
@@ -8,6 +9,16 @@ import { Component, OnInit } from "@angular/core";
 
 export class CompanyDetailComponent implements OnInit{
 
-ngOnInit(){}
+data = ""
+
+constructor(
+  private router: ActivatedRoute
+) {}
+
+ngOnInit(){
+  console.log(this.router.snapshot.params)
+  this.data = this.router.snapshot.params.id
+}
+
 
 }
