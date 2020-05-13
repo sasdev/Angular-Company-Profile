@@ -2,5 +2,10 @@
 
 {{data}}
 
+<div *ngIf="company$ | async as company">
+  {{company.name}}
+</div>
+
+
 <button mat-flat-button color="primary" routerLink="/companies" >Back</button>
 
